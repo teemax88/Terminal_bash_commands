@@ -1,0 +1,9 @@
+#!/bin/bash
+cd starscript
+mkdir star_1 star_2 star_3
+cd star_1
+touch startest1.txt startest2.txt startest3.txt startest4.txt startest5.txt
+mkdir new_star1 new_star2  new_star3
+ls -a
+cd ..
+mv star_1/startest1.txt star_1/startest2.txt star_2/
